@@ -1,0 +1,3 @@
+# Official PyPI package. The 6.2.3 wheel bundles silero_vad.jit.
+# Wheel SHA-256 recorded in docs/licenses/SILERO_VAD.md.
+silero-vad==6.2.3

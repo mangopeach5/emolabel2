@@ -1,0 +1,23 @@
+[project]
+name = "EmoLabel 2.0"
+min_clip_sec = 3
+max_clip_sec = 12
+max_candidates_per_video = 3
+gold_classes = ["neutral", "angry", "sad", "happy"]
+
+[paths]
+inbox = "data/inbox"
+work = "data/work"
+candidates = "data/candidates"
+final_dataset = "data/final_dataset"
+logs = "data/logs"
+
+[policy]
+allow_youtube_metadata = false
+allow_cloud_inference = false
+allow_hugging_face = false
+require_explicit_acceptance = true
+
+[emotion]
+backend = "none" # Future: local Ollama
+model = "" # Compare Qwen/Llama on Korean holdout before choosing

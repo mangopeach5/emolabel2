@@ -1,0 +1,2 @@
+# No external Python packages are required for the initial scaffold.
+# Ask permission and audit licenses and HF downloads before adding dependencies.

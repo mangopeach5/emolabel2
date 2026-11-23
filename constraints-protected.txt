@@ -1,0 +1,4 @@
+torch==2.15.0
+silero-vad==6.2.3
+scenedetect-headless==0.7.3
+opencv-python-headless==5.1.0.95

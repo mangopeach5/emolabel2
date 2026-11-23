@@ -1,0 +1,29 @@
+
+# Local environment
+.venv/
+.venv-*/
+__pycache__/
+*.pyc
+.env
+.env.*
+
+# Private research data
+data/
+models/
+*.sqlite3
+*.sqlite3-*
+*.mp4
+*.wav
+*.pt
+*.pth
+*.onnx
+
+# Logs and caches
+*.log
+.pytest_cache/
+
+# Windows metadata
+*:Zone.Identifier
+
+# Local development scratch
+work/
